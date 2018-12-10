@@ -22,4 +22,14 @@ func main()  {
 	updateSice(b)
 	fmt.Println(b)
 
+	//append-----
+	arr2 := [...]int{0,1,2,3,4,5,6}
+	s4 := arr2[2:6]
+	s5 := s4[3:5]
+	s6 := append(s4,10)
+	s7 := append(s5,11)
+	fmt.Println(s6,s7)
+	fmt.Println(arr2)
+
+
 }
