@@ -1,5 +1,5 @@
 //切片
-package main
+package _go
 
 import "fmt"
 
